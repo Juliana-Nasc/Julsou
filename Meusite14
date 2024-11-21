@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Meu Site</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <h1>Meu Site</h1>
+ <nav>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Sobre</a></li>
+ <li><a href="#">Contato</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <section>
+ <h2>Bem-vindo!</h2>
+ <p>Este é meu site pessoal.</p>
+ </section>
+ </main>
+ <footer>
+ <p>&copy; 2023 Meu Site</p>
+ </footer>
+</body>
+</html>
+```
+
+*CSS (style.css)*
+```
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+nav li {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+nav a {
+ color: #fff;
+ text-decoration: none;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+
+section {
+ background-color: #f7f7f7;
+ padding: 20px;
+ border: 1px solid #ddd;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+ background-color: #333;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+ clear: both;
+}
